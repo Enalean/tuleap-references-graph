@@ -1,0 +1,6 @@
+.idea/
+venv
+tuleap-rest-api-client
+.ipynb_checkpoints/
+__pycache__/
+*.graphml

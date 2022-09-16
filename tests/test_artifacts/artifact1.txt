@@ -1,0 +1,366 @@
+{
+    "id": 1,
+    "uri": "artifacts/1",
+    "xref": "bug #1",
+    "tracker": {
+        "id": 1,
+        "uri": "trackers/1",
+        "label": "Bugs",
+        "color_name": "fiesta-red",
+        "project": {
+            "id": 101,
+            "uri": "projects/101",
+            "label": "projettest",
+            "icon": ""
+        }
+    },
+    "project": {
+        "id": 101,
+        "uri": "projects/101",
+        "label": "projettest",
+        "icon": ""
+    },
+    "submitted_by": 102,
+    "submitted_by_user": {
+        "id": 102,
+        "uri": "users/102",
+        "user_url": "/users/jean",
+        "real_name": "Jean Valjean",
+        "display_name": "Jean Valjean (jean)",
+        "username": "jean",
+        "ldap_id": "102",
+        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jean/avatar-f26c3cc81c093fbf8b47e5934b82a2e60385302daf5d55a330e21cad4edaf391.png",
+        "is_anonymous": false,
+        "has_avatar": true
+    },
+    "submitted_on": "2022-06-07T16:25:15+02:00",
+    "html_url": "/plugins/tracker/?aid=1",
+    "changesets_uri": "artifacts/1/changesets",
+    "values": [
+        {
+            "field_id": 103,
+            "type": "aid",
+            "label": "Artifact ID",
+            "value": 1
+        },
+        {
+            "field_id": 107,
+            "type": "lud",
+            "label": "Last Update On",
+            "value": "2022-06-20T16:50:18+02:00"
+        },
+        {
+            "field_id": 110,
+            "type": "string",
+            "label": "Summary",
+            "value": "bug1"
+        },
+        {
+            "field_id": 116,
+            "type": "sb",
+            "label": "Status",
+            "values": [
+                {
+                    "id": "101",
+                    "label": "New",
+                    "color": null,
+                    "tlp_color": "acid-green"
+                }
+            ],
+            "bind_value_ids": [
+                101
+            ]
+        },
+        {
+            "field_id": 119,
+            "type": "sb",
+            "label": "Assigned to",
+            "values": [
+                {
+                    "email": null,
+                    "status": null,
+                    "id": null,
+                    "uri": null,
+                    "user_url": null,
+                    "real_name": null,
+                    "display_name": "Anonymous user",
+                    "username": null,
+                    "ldap_id": null,
+                    "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/themes/common/images/avatar_default.png",
+                    "is_anonymous": true,
+                    "has_avatar": false
+                }
+            ],
+            "bind_value_ids": [
+                100
+            ]
+        },
+        {
+            "field_id": 123,
+            "type": "float",
+            "label": "Initial Effort",
+            "value": null
+        },
+        {
+            "field_id": 125,
+            "type": "float",
+            "label": "Remaining Effort",
+            "value": null
+        },
+        {
+            "field_id": 127,
+            "type": "art_link",
+            "label": "Links",
+            "links": [
+                {
+                    "type": null,
+                    "id": 10,
+                    "uri": "artifacts/10",
+                    "tracker": {
+                        "id": 1,
+                        "uri": "trackers/1",
+                        "label": "Bugs",
+                        "project": {
+                            "id": 101,
+                            "uri": "projects/101",
+                            "label": "projettest",
+                            "icon": ""
+                        }
+                    }
+                },
+                {
+                    "type": null,
+                    "id": 11,
+                    "uri": "artifacts/11",
+                    "tracker": {
+                        "id": 4,
+                        "uri": "trackers/4",
+                        "label": "Sprints",
+                        "project": {
+                            "id": 101,
+                            "uri": "projects/101",
+                            "label": "projettest",
+                            "icon": ""
+                        }
+                    }
+                }
+            ],
+            "reverse_links": [
+                {
+                    "type": "_is_child",
+                    "id": 18,
+                    "uri": "artifacts/18",
+                    "tracker": {
+                        "id": 1,
+                        "uri": "trackers/1",
+                        "label": "Bugs",
+                        "project": {
+                            "id": 101,
+                            "uri": "projects/101",
+                            "label": "projettest",
+                            "icon": ""
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "field_id": 104,
+            "type": "subon",
+            "label": "Submitted on",
+            "value": "2022-06-07T16:25:15+02:00"
+        },
+        {
+            "field_id": 367,
+            "type": "float",
+            "label": "temps pass\u00e9",
+            "value": null
+        },
+        {
+            "field_id": 120,
+            "type": "date",
+            "label": "Close Date",
+            "value": null
+        },
+        {
+            "field_id": 128,
+            "type": "cross",
+            "label": "References",
+            "value": [
+                {
+                    "ref": "git #compilateur/36d3e5dfab31ef2a6537c17fa73157fab2ab0fe3",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=git&val=compilateur%2F36d3e5dfab31ef2a6537c17fa73157fab2ab0fe3&group_id=101",
+                    "direction": "out"
+                },
+                {
+                    "ref": "git #compilateur/1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=git&val=compilateur%2F1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98&group_id=101",
+                    "direction": "out"
+                },
+                {
+                    "ref": "sprint #11",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=sprint&val=11&group_id=101",
+                    "direction": "out"
+                },
+                {
+                    "ref": "bug #10",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=bug&val=10&group_id=101",
+                    "direction": "out"
+                },
+                {
+                    "ref": "git #compilateur/6add64b5d54ee893b3d0d252c061d64c78634239",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=git&val=compilateur%2F6add64b5d54ee893b3d0d252c061d64c78634239&group_id=101",
+                    "direction": "in"
+                },
+                {
+                    "ref": "task #2",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=task&val=2&group_id=101",
+                    "direction": "in"
+                },
+                {
+                    "ref": "bug #18",
+                    "url": "https://tuleap-web.tuleap-aio-dev.docker/goto?key=bug&val=18&group_id=101",
+                    "direction": "in"
+                }
+            ]
+        },
+        {
+            "field_id": 117,
+            "type": "sb",
+            "label": "Severity",
+            "values": [
+                {
+                    "id": "108",
+                    "label": "Low impact",
+                    "color": null,
+                    "tlp_color": "graffiti-yellow"
+                }
+            ],
+            "bind_value_ids": [
+                108
+            ]
+        },
+        {
+            "field_id": 105,
+            "type": "subby",
+            "label": "Submitted by",
+            "value": {
+                "email": "jean.valjean@gmail.com",
+                "status": "A",
+                "id": 102,
+                "uri": "users/102",
+                "user_url": "/users/jean",
+                "real_name": "Jean Valjean",
+                "display_name": "Jean Valjean (jean)",
+                "username": "jean",
+                "ldap_id": "102",
+                "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jean/avatar-f26c3cc81c093fbf8b47e5934b82a2e60385302daf5d55a330e21cad4edaf391.png",
+                "is_anonymous": false,
+                "has_avatar": true
+            }
+        },
+        {
+            "field_id": 108,
+            "type": "luby",
+            "label": "Last Update By",
+            "value": {
+                "email": "jean.valjean@gmail.com",
+                "status": "A",
+                "id": 102,
+                "uri": "users/102",
+                "user_url": "/users/jean",
+                "real_name": "Jean Valjean",
+                "display_name": "Jean Valjean (jean)",
+                "username": "jean",
+                "ldap_id": "102",
+                "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jean/avatar-f26c3cc81c093fbf8b47e5934b82a2e60385302daf5d55a330e21cad4edaf391.png",
+                "is_anonymous": false,
+                "has_avatar": true
+            }
+        },
+        {
+            "field_id": 111,
+            "type": "text",
+            "label": "Original Submission",
+            "value": "<p>ouii\navec <a href=\"https://tuleap-web.tuleap-aio-dev.docker/goto?key=git&amp;val=compilateur%2F1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98&amp;group_id=101\" title=\"plugin_git:reference_commit_desc_key\" class=\"cross-reference\">git #compilateur/1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98</a></p>\n",
+            "format": "html",
+            "commonmark": "ouii\r\navec git #compilateur/1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98"
+        },
+        {
+            "field_id": 112,
+            "type": "file",
+            "label": "Attachments",
+            "file_descriptions": []
+        },
+        {
+            "bind_value_objects": [
+                {
+                    "email": "jean.valjean@gmail.com",
+                    "status": "A",
+                    "id": 102,
+                    "uri": "users/102",
+                    "user_url": "/users/jean",
+                    "real_name": "Jean Valjean",
+                    "display_name": "Jean Valjean (jean)",
+                    "username": "jean",
+                    "ldap_id": "102",
+                    "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jean/avatar-f26c3cc81c093fbf8b47e5934b82a2e60385302daf5d55a330e21cad4edaf391.png",
+                    "is_anonymous": false,
+                    "has_avatar": true
+                }
+            ],
+            "bind_value_ids": [
+                "Jean Valjean (jean)"
+            ],
+            "bind_type": "users",
+            "type": "tbl",
+            "field_id": 113,
+            "label": "CC"
+        }
+    ],
+    "values_by_field": {
+        "artifact_id": {
+            "field_id": 103,
+            "type": "aid",
+            "label": "Artifact ID",
+            "value": 1
+        },
+        "summary": {
+            "field_id": 110,
+            "type": "string",
+            "label": "Summary",
+            "value": "bug1"
+        },
+        "initial_effort": {
+            "field_id": 123,
+            "type": "float",
+            "label": "Initial Effort",
+            "value": null
+        },
+        "remaining_effort": {
+            "field_id": 125,
+            "type": "float",
+            "label": "Remaining Effort",
+            "value": null
+        },
+        "temps_pass__": {
+            "field_id": 367,
+            "type": "float",
+            "label": "temps pass\u00e9",
+            "value": null
+        },
+        "details": {
+            "field_id": 111,
+            "type": "text",
+            "label": "Original Submission",
+            "value": "<p>ouii\navec <a href=\"https://tuleap-web.tuleap-aio-dev.docker/goto?key=git&amp;val=compilateur%2F1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98&amp;group_id=101\" title=\"plugin_git:reference_commit_desc_key\" class=\"cross-reference\">git #compilateur/1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98</a></p>\n",
+            "format": "html",
+            "commonmark": "ouii\r\navec git #compilateur/1b47ce3eee6246b0dd759cdb4d9d6323a1c61a98"
+        }
+    },
+    "last_modified_date": "2022-06-20T16:50:18+02:00",
+    "status": "New",
+    "is_open": true,
+    "title": "bug1",
+    "assignees": []
+}
